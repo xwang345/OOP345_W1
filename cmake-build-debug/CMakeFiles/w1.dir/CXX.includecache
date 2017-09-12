@@ -7,34 +7,34 @@
 #IncludeRegexTransform: 
 
 /Users/xiaochen/Downloads/OOP345/w1/CString.cpp
-iostream
--
-cstring
--
 CString.h
 /Users/xiaochen/Downloads/OOP345/w1/CString.h
-
-/Users/xiaochen/Downloads/OOP345/w1/CString.h
-
-/Users/xiaochen/Downloads/OOP345/w1/process.cpp
-iostream
--
 cstring
 -
+iostream
+-
+
+/Users/xiaochen/Downloads/OOP345/w1/CString.h
+iostream
+-
+
+/Users/xiaochen/Downloads/OOP345/w1/process.cpp
 process.h
 /Users/xiaochen/Downloads/OOP345/w1/process.h
 CString.h
 /Users/xiaochen/Downloads/OOP345/w1/CString.h
+iostream
+-
 
 /Users/xiaochen/Downloads/OOP345/w1/process.h
 
 /Users/xiaochen/Downloads/OOP345/w1/w1.cpp
-iostream
--
-cstring
--
 process.h
 /Users/xiaochen/Downloads/OOP345/w1/process.h
 CString.h
 /Users/xiaochen/Downloads/OOP345/w1/CString.h
+string
+-
+iostream
+-
 

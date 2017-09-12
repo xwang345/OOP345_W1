@@ -1,30 +1,28 @@
-#pragma once
-#include <iostream>
-#include <cstring>
 #include "process.h"
 #include "CString.h"
-
+#include <string>
+#include <iostream>
 using namespace std;
 
-int main(int argc, char* argv[]){
-   cout<< "Command Line:";
+using namespace w1;
+int main(int argc, char* argv[]) {
+   int i = 0;
 
-   for(int i = 0; i < argc; i++){
-      cout << " " << argv[i] ;
+   cout << "Command Line : ";
+   for (i = 0; i < argc; i++) {
+      cout << " " << argv[i];
    }
+   cout << "\n";
 
-   cout << endl;
-
-   if(argc <= 1){
-      cout << "Insufficient number of arguments (min 1)" << endl;
-      return 1;
+   if (argc == 1) {
+      cout << "Insufficient number of arguments (min 1)" << "\n";
+      return 1;   //false
    }
-
-   cout<<"Maximum number of characters stored : " << w1::MaxChar << endl;
-
-   for(int j = 1; j < argc; j++){
-      process(argv[j]);
+   else {
+      cout << "Maximum number of characters stored : 3" << "\n";
+      for (i = 0; i < argc; i++) {
+         process(argv[i]);
+      }
+      return 0;   //true
    }
-
-   return 0;
 }

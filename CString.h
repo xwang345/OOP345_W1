@@ -1,21 +1,16 @@
+
 #pragma once
+#include <iostream>
 
-#ifndef CSTRING_H
-#define CSTRING_H
+namespace w1 {
+    const int MAX = 3;
 
-using namespace std;
-
-namespace w1{
-    const int MaxChar = 3;
-
-    class CString{
-    private:
-        char str[MaxChar +1];
+    class CString {
+        char str[MAX + 1];
     public:
-        CString(char* s);
-        void display(std::ostream& ostr);
+        CString(char* c);
+        void display(std::ostream& os) const;
     };
-    std::ostream& operator << (std::ostream& ostr, CString& src);
-}
 
-#endif
+    std::ostream& operator<< (std::ostream& os, const CString& c);
+}

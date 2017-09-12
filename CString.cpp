@@ -5,34 +5,35 @@
 // email: xwang345@myseneca.ca
 ///////////////////////////////////////////*/
 
-#include <iostream>
-#include <cstring>
 #include "CString.h"
-
+#include <cstring>
+#include <iostream>
 using namespace std;
-namespace w1{
-    //constructor checks if s is null, if so, set the string to a safe empty state
-    //if s is not null, store as needed
-    CString::CString(char* s){
-       if(s == NULL){
+
+namespace w1 {
+    CString::CString(char * c)
+    {
+       if (c == NULL) {
           str[0] = '\0';
        }
-       else{
-          strncpy(str,s, MaxChar);
-          str[MaxChar] = '\0';
+       else {
+          strncpy(str, c, MAX);
+          str[MAX] = '\0';
        }
     }
-    //display the string stored
-    void CString::display(ostream& ostr){
-       ostr << str;
-    }
-    //inserts the string stroed
-    std::ostream& operator << (std::ostream& ostr, CString& src){
-       static int count = 0;
 
-       ostr << count++ << ": ";
-       src.display(ostr);
-       return ostr;
+    void CString::display(std::ostream & os) const
+    {
+       for(int i = 0;i<MAX;i++)
+          os << str[i];
     }
 
+    std::ostream & operator<<(std::ostream & os, const CString & c)
+    {
+       static int i = 0;
+       cout << i << ": ";
+       i++;
+       c.display(os);
+       return os;
+    }
 }
