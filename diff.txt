@@ -1,10 +1,10 @@
 
-In line number 5 of your output:
+In line number 3 of your output:
 The output should be:
-0: oop
+Command Line : ws oop345 btp305
 But your output is: 
-0: ws
-   ^
----|
-Professor's character ASCII code: hex(6f), dec(111)
-un-matched character ASCII code: hex(77), dec(119)
+xwang345@matrix:~/OOP345/OOP345_W1> exit
+^
+|
+Professor's character ASCII code: hex(43), dec(67)
+un-matched character ASCII code: hex(78), dec(120)

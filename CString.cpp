@@ -24,7 +24,7 @@ namespace w1 {
 
     void CString::display(std::ostream & os) const
     {
-       for(int i = 0;i<MAX;i++)
+       for(int i = 0; i < MAX;i ++)
           os << str[i];
     }
 

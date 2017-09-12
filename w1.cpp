@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
    }
    else {
       cout << "Maximum number of characters to be stored : 3" << "\n";
-      for (i = 0; i < argc; i++) {
+      for (i = 1; i < argc; i++) {
          process(argv[i]);
       }
       return 0;   //true

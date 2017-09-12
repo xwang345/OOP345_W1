@@ -5,10 +5,9 @@
 using namespace std;
 
 namespace w1 {
-    void process(char * c)
-    {
+    void process(char * c) {
        CString CStr(c);
        cout << CStr;
-       cout << "\n";
+       cout << endl;
     }
 }

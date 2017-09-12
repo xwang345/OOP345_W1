@@ -1,5 +1,10 @@
-Script started on Tue 12 Sep 2017 02:35:03 PM EDT
-xwang345@matrix:~/OOP345/OOP345_W1> ws oop345 btp305[K
+Script started on Tue 12 Sep 2017 02:53:15 PM EDT
+xwang345@matrix:~/OOP345/OOP345_W1> ws oop345 btp305
 Command Line : ws oop345 btp305
 Maximum number of characters to be stored : 3
-0: ws
+0: oop
+1: btp
+xwang345@matrix:~/OOP345/OOP345_W1> wxi[[[[Kexit
+exit
+
+Script done on Tue 12 Sep 2017 02:53:34 PM EDT
