@@ -8,7 +8,7 @@ using namespace w1;
 int main(int argc, char* argv[]) {
    int i = 0;
 
-   cout << "Command Line : ";
+   cout << "Command Line :";
    for (i = 0; i < argc; i++) {
       cout << " " << argv[i];
    }
@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
       return 1;   //false
    }
    else {
-      cout << "Maximum number of characters stored : 3" << "\n";
+      cout << "Maximum number of characters to be stored : 3" << "\n";
       for (i = 0; i < argc; i++) {
          process(argv[i]);
       }

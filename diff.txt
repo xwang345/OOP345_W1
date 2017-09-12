@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+0: oop
+But your output is: 
+0: ws
+   ^
+---|
+Professor's character ASCII code: hex(6f), dec(111)
+un-matched character ASCII code: hex(77), dec(119)

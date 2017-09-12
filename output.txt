@@ -1,0 +1,5 @@
+Script started on Tue 12 Sep 2017 02:35:03 PM EDT
+xwang345@matrix:~/OOP345/OOP345_W1> ws oop345 btp305[K
+Command Line : ws oop345 btp305
+Maximum number of characters to be stored : 3
+0: ws
